@@ -18,3 +18,5 @@ repourl:
 downloadurl: http://creativecommons.org/videos/a-shared-culture
 embed: <iframe src="//player.vimeo.com/video/13864570" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 ---
+
+A short video explaining what Creative Commons is and how it enables sharing and collaboration.
