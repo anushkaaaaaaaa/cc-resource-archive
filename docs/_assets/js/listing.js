@@ -117,3 +117,31 @@ if (language) {
   isFilterSelected += ", .resourcenavlanguageunknown";
 }
 dynamicStyle.innerHTML += `${isFilterSelected} { display: block; }`;
+
+// Show/hide clear filters button and setup event listener
+document.addEventListener('DOMContentLoaded', function() {
+  const clearButton = document.getElementById('clear-all-filters');
+  const clearWrapper = document.querySelector('.clear-filters-wrapper');
+  
+  // Show clear button only if any filter is active
+  if (topic || medium || language) {
+    if (clearWrapper) {
+      clearWrapper.style.display = 'block';
+    }
+  }
+  
+  // Clear all filters when button is clicked
+  if (clearButton) {
+    clearButton.addEventListener('click', function() {
+      window.location.href = window.location.pathname;
+    });
+    
+    // Allow keyboard activation (Enter/Space)
+    clearButton.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        window.location.href = window.location.pathname;
+      }
+    });
+  }
+});
