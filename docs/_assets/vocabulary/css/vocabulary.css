@@ -1803,8 +1803,9 @@ body > footer .license svg {
 
 @media (min-width: 1500px) {
     body {
-        width: 1500px;
-        margin: 0 auto;
+        /* Removed fixed width constraint to allow full-width layout on larger screens */
+        /* width: 1500px; */
+        /* margin: 0 auto; */
     }
 
     body > main {
