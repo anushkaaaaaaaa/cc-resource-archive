@@ -1802,16 +1802,9 @@ body > footer .license svg {
 /* responsive contexts */
 
 @media (min-width: 1500px) {
-    body {
-        /* Removed fixed width constraint to allow full-width layout on larger screens */
-        /* width: 1500px; */
-        /* margin: 0 auto; */
-    }
-
     body > main {
         overflow-x: hidden;
     }
-
 }
 
 @media (max-width: 1140px) {
