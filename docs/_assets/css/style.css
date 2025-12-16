@@ -114,7 +114,6 @@ code {
   grid-area: sidebar;
 }
 
-/* Clear filters button styling */
 .clear-filters-wrapper {
   text-align: center;
   margin: 1em 0;
@@ -134,7 +133,7 @@ code {
 }
 
 .clear-filters-btn:hover {
-  background-color: #a03600;
+  background-color: var(--vocabulary-brand-color-dark-tomato);
 }
 
 .clear-filters-btn:focus {
@@ -158,7 +157,6 @@ code {
   margin-bottom: 1rem;
 }
 
-/* Improve checkbox and label accessibility */
 #resourcenavbar input[type="checkbox"] {
   cursor: pointer;
   margin-right: 0.5rem;
@@ -169,7 +167,6 @@ code {
   display: inline;
 }
 
-/* Add focus styles for keyboard navigation */
 #resourcenavbar input[type="checkbox"]:focus {
   outline: 2px solid var(--vocabulary-brand-color-turquoise);
   outline-offset: 2px;
