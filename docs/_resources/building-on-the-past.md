@@ -18,4 +18,4 @@ author: Justin Cone
 license: CC BY 3.0
 ---
 
-Short video about creativity always building on the past. Downloadable from [Internet Archive](https://archive.org/details/Justin_Cone_-_Building_On_The_Past_-_640x480).
+A short video about creativity always building on the past. Downloadable from [Internet Archive](https://archive.org/details/Justin_Cone_-_Building_On_The_Past_-_640x480).
